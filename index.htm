@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/img/home1-img.png" type="image/x-icon">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/home1-img.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="npm/boxicons%40latest/css/boxicons.min.css">
+
+        <!--=============== SLIDER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--=============== FONT ===============-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+
+        <title>Neyzz</title>        
+
+        <meta name="description" content="Neyzz ">
+		
+		<meta name="keywords" content="Андрей Крамарев, Neyzik, Neyzz, Нейз">
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.htm" class="nav__logo">
+                    <img src="assets/img/home1-img.png" alt="" class="nav__logo-img">
+                    Neyzz
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link" style="font-family: 'Roboto', sans-serif;">Главная</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link" style="font-family: 'Roboto', sans-serif;">Обо мне</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link" style="font-family: 'Roboto', sans-serif;">Что-то</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="links.html" class="nav__link" style="font-family: 'Roboto', sans-serif;">🔒 Скоро</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+						
+                        <!-- SLIDER 1 -->
+                        <section class="swiper-slide" style="cursor: grabbing;">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home1-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title"></h4>
+                                        <span class="home__details-subtitle"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#РАЗРАБОТКА</h3>
+                                    <h1 class="home__title">МОИ<br>ПРОЕКТЫ</h1>
+                                    <p class="home__description">Все мои реализованные идеи можете найти на гитхабе.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://github.com/Neyz31?tab=repositories" target="_blank" class="button">Перейти</a>
+                                    <!--    <a сlass="button--link button--flex "> <p class="pulsate" style="font-size: 24px;">Свайпни <i class='bx bx-right-arrow-alt button__icon' style="margin-top: 10px;"></i></p></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- SLIDER 2 -->
+                        <section class="swiper-slide" style="cursor: grabbing;">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/about-img.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title"></h4>
+                                        <span class="home__details-subtitle"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#Вк</h3>
+                                    <h1 class="home__title">VK<br> Андрей<br> Крамарев</h1>
+                                    <p class="home__description"><b></b> 
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="https://vk.com/nneyzz" target="_blank" class="button">Перейти</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== MUSIC ====================-->
+            <section class="section category">
+                <h2 class="section__title">Любимые треки</h2>
+
+                <div class="category__container container grid">
+
+                    <div class="category__data" style="cursor:pointer" onclick="window.open('https://music.yandex.ru/album/10132309/track/63606604')">
+                        <img src="assets/img/alldaynight.jpg" style="border-radius: 12px;" alt="" class="category__img">
+                        <h3 class="category__title">Днями-ночами</h3>
+                        <p class="category__description">pyrokinesis, МУККА</p>
+                        <a href="https://music.yandex.ru/album/10132309/track/63606604" target="_blank" class="button2">Слушать</a>
+                    </div>
+					
+                    <div class="category__data" style="cursor:pointer" onclick="window.open('https://music.yandex.ru/album/30562253/track/124496906')">
+                        <img src="assets/img/younot.png" style="border-radius: 12px;" alt="" class="category__img">
+                        <h3 class="category__title">ты не поймёшь</h3>
+                        <p class="category__description">СТИНТ, mzlff</p>
+                        <a href="https://music.yandex.ru/album/30562253/track/124496906" target="_blank" class="button2">Слушать</a>
+                    </div>
+					
+					<div class="category__data" style="cursor:pointer" onclick="window.open('https://music.yandex.ru/album/21220153/track/100881669')">
+                        <img src="assets/img/mybike.jpg" style="border-radius: 12px;" alt="" class="category__img">
+                        <h3 class="category__title">Мой байк </h3>
+                        <p class="category__description">Серега Пират</p>
+                        <a href="https://music.yandex.ru/album/21220153/track/100881669" target="_blank" class="button2">Слушать</a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Андрей/Neyzz</h2>
+                        <p class="about__description"><b>Обычный</b> российский подросток, начинающий программист. 
+                        <br><em>(краткость - сестра таланта)</em>
+                        </p>
+                    </div>
+
+                    <img src="assets/img/about-img5.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== IGRI ====================-->
+            <section class="section trick" id="trick">
+                <h2 class="section__title">Любимые игры</h2>
+                <div class="trick__container container grid">
+
+                  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="window.open('https://store.steampowered.com/app/570/Dota_2/')">
+                    <img src="assets/img/Dota2.webp" style="border-radius: 8px;" alt="" class="trick__img">
+                    <h3 class="trick__title">Dota 2</h3>
+                  </div>
+				  
+				  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="window.open('https://store.steampowered.com/app/1172470/Apex_Legends/')">
+                    <img src="assets/img/Apex.png" style="border-radius: 8px;" alt="" class="trick__img">
+                    <h3 class="trick__title">Apex Legends</h3>
+                  </div>
+
+                  <div class="trick__content padding_card c-pointer" style="cursor:pointer" onclick="window.open('https://store.steampowered.com/app/620/Portal_2/')">
+                    <img src="assets/img/Portal2.png" style="border-radius: 8px;" alt="" class="trick__img">
+                    <h3 class="trick__title">Portal 2</h3>
+                  </div>
+                </div>
+            </section>
+            
+			<!--==================== MERCH ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">Хотите создавать сайты?<br>Вам дорога в GeekBrains!</h2>
+                        <a href="https://gb.ru/" target="_blank" class="button">Перейти</a>
+                    </div>
+
+                    <img src="assets/img/GeekBrains2.png" alt="" class="discount__img" style="border-radius: 24px;">
+                </div>
+            </section>
+			
+			<!--==================== SHOP ====================--
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h1 class="discount__title">Магазин Жопера <br>Лучший магазин ключей!</h1>
+                        <a href="https://t.me/JoperShop" target="_blank" class="button">К покупкам!</a>
+                    </div>
+
+                    <img src="assets/img/jopershop.jpg" alt="" class="discount__img" style="border-radius: 24px;">
+                </div>
+            </section> -->
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/home1-img.png" alt="" class="footer__logo-img">
+                            Neyzz
+                        </a>
+
+                        <p class="footer__description">Ну да я.</p>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Некоторые ссылки</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="https://vk.com/nneyzz" target="_blank" class="footer__link">VK</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Neyz31?tab=repositories" target="_blank" class="footer__link">GitHub</a>
+                            </li>
+                            <li>
+                                <a href="https://t.me/nneyyzz" target="_blank" class="footer__link">Telegram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <span class="footer__copy"><a href="https://github.com/Neyz31?tab=repositories" target="_blank" class="footer__link">Автор - neyzz</a></span>
+
+            </footer>
+
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SLAIDER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
